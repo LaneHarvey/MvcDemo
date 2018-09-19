@@ -75,11 +75,7 @@ namespace WebApplication2.Controllers
 
             // This doesn't count login failures towards account lockout
             // To enable password failures to trigger account lockout, change to shouldLockout: true
-<<<<<<< HEAD
-            var result = await SignInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, shouldLockout: false);
-=======
             var result = await SignInManager.PasswordSignInAsync(model.UserName, model.Password, model.RememberMe, shouldLockout: false);
->>>>>>> de8c9959c1d41d006c9532fd6369dca8a0f0c992
             switch (result)
             {
                 case SignInStatus.Success:
@@ -155,11 +151,7 @@ namespace WebApplication2.Controllers
         {
             if (ModelState.IsValid)
             {
-<<<<<<< HEAD
-                var user = new ApplicationUser { UserName = model.Email, Email = model.Email };
-=======
-                var user = new ApplicationUser { UserName = model.UserName, Email = model.Email };
->>>>>>> de8c9959c1d41d006c9532fd6369dca8a0f0c992
+                var user = new ApplicationUser { UserName = model.UserName, Email = model.Email, FullName = model.FullName, Gender = model.Gender };
                 var result = await UserManager.CreateAsync(user, model.Password);
                 if (result.Succeeded)
                 {

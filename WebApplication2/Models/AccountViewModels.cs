@@ -48,12 +48,6 @@ namespace WebApplication2.Models
 
     public class LoginViewModel
     {
-<<<<<<< HEAD
-        [Required]
-        [Display(Name = "Email")]
-        [EmailAddress]
-        public string Email { get; set; }
-=======
         //[Required]
         [Display(Name = "Email")]
         [EmailAddress]
@@ -61,7 +55,6 @@ namespace WebApplication2.Models
         [Display(Name = "User Name")]
         [Required]
         public string UserName { get; set; }
->>>>>>> de8c9959c1d41d006c9532fd6369dca8a0f0c992
 
         [Required]
         [DataType(DataType.Password)]
@@ -78,11 +71,10 @@ namespace WebApplication2.Models
         [EmailAddress]
         [Display(Name = "Email")]
         public string Email { get; set; }
-<<<<<<< HEAD
-=======
         [Display(Name = "User Name"), Required]
         public string UserName { get; set; }
->>>>>>> de8c9959c1d41d006c9532fd6369dca8a0f0c992
+        [Display(Name = "Full Name"),Required]
+        public string FullName { get; set; }
 
         [Required]
         [StringLength(100, ErrorMessage = "The {0} must be at least {2} characters long.", MinimumLength = 6)]
@@ -94,6 +86,8 @@ namespace WebApplication2.Models
         [Display(Name = "Confirm password")]
         [Compare("Password", ErrorMessage = "The password and confirmation password do not match.")]
         public string ConfirmPassword { get; set; }
+
+        public bool Gender { get; set; }
     }
 
     public class ResetPasswordViewModel

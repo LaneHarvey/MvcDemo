@@ -54,17 +54,10 @@ namespace WebApplication2
             manager.PasswordValidator = new PasswordValidator
             {
                 RequiredLength = 6,
-<<<<<<< HEAD
-                RequireNonLetterOrDigit = true,
-                RequireDigit = true,
-                RequireLowercase = true,
-                RequireUppercase = true,
-=======
                 RequireNonLetterOrDigit = false,
                 RequireDigit = false,
                 RequireLowercase = false,
                 RequireUppercase = false,
->>>>>>> de8c9959c1d41d006c9532fd6369dca8a0f0c992
             };
 
             // Configure user lockout defaults

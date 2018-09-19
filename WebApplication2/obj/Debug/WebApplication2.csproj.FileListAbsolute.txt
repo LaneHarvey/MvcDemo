@@ -117,8 +117,6 @@ C:\Users\mrlan\source\repos\WebApplication2\WebApplication2\obj\Debug\WebApplica
 C:\Users\mrlan\source\repos\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csproj.CopyComplete
 C:\Users\mrlan\source\repos\WebApplication2\WebApplication2\obj\Debug\WebApplication2.dll
 C:\Users\mrlan\source\repos\WebApplication2\WebApplication2\obj\Debug\WebApplication2.pdb
-<<<<<<< HEAD
-=======
 C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\bin\ApplicationInsights.config
 C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\bin\WebApplication2.dll.config
 C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\bin\WebApplication2.dll
@@ -234,9 +232,14 @@ C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\bin\Microsoft.AI.DependencyC
 C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\bin\Microsoft.AI.Web.xml
 C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\obj\Debug\WebApplication2.csprojAssemblyReference.cache
 C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\obj\Debug\WebApplication2.csproj.CoreCompileInputs.cache
 C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\obj\Debug\WebApplication2.csproj.CopyComplete
 C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\obj\Debug\WebApplication2.dll
 C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\obj\Debug\WebApplication2.pdb
->>>>>>> de8c9959c1d41d006c9532fd6369dca8a0f0c992
+C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\obj\Debug\WebApplication2.csprojAssemblyReference.cache
+C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\obj\Debug\WebApplication2.Migrations.InitialCreate.resources
+C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\obj\Debug\WebApplication2.csproj.GenerateResource.cache
+C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\obj\Debug\WebApplication2.Migrations.addfullname.resources
+C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\obj\Debug\WebApplication2.Migrations.gender.resources
+C:\Users\mrlan\source\repos\MvcDemo\WebApplication2\obj\Debug\WebApplication2.Migrations.addfullname1.resources
+C:\Users\mrlan\source\repos\WebApplication2\WebApplication2\obj\Debug\WebApplication2.csprojAssemblyReference.cache
